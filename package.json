@@ -1,0 +1,14 @@
+{
+  "name": "tv-shqip-nuvio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Stremio/Nuvio live TV addon for GitHub Pages.",
+  "scripts": {
+    "build": "node build.js",
+    "add-channel": "node scripts/add-channel.js",
+    "sync-channels": "node scripts/sync-channels.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

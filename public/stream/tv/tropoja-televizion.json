@@ -1,0 +1,8 @@
+{
+  "streams": [
+    {
+      "title": "Live Stream",
+      "url": "https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8"
+    }
+  ]
+}

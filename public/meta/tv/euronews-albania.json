@@ -1,0 +1,9 @@
+{
+  "meta": {
+    "id": "euronews-albania",
+    "type": "tv",
+    "name": "Euronews Albania",
+    "poster": "https://placehold.co/600x900/111827/ffffff?text=Euronews%20Albania",
+    "description": "Live Albanian TV channel."
+  }
+}

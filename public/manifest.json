@@ -1,0 +1,21 @@
+{
+  "id": "org.nuvio.static-live-tv",
+  "version": "1.0.0",
+  "name": "Nuvio Live TV",
+  "description": "Live TV channels for Nuvio and Stremio.",
+  "types": [
+    "tv"
+  ],
+  "catalogs": [
+    {
+      "type": "tv",
+      "id": "live_channels",
+      "name": "Live Channels"
+    }
+  ],
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ]
+}
