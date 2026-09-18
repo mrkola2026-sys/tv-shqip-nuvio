@@ -7,10 +7,10 @@ A static live TV addon for Nuvio/Stremio that pulls Albanian channels from an up
 1. Push this repository to GitHub.
 2. Enable GitHub Pages in the repository settings.
 3. Make sure the site is deployed from the GitHub Pages workflow.
-4. Use the deployed URL for this project:
+4. Use the deployed manifest URL for this project:
 
 ```text
-https://mrkola2026-sys.github.io/tv-shqip-nuvio/
+https://mrkola2026-sys.github.io/tv-shqip-nuvio/manifest.json
 ```
 
 5. Open Nuvio and add the addon using that URL.
@@ -101,7 +101,7 @@ npm run add-channel
 Actual project URL:
 
 ```text
-https://mrkola2026-sys.github.io/tv-shqip-nuvio/
+https://mrkola2026-sys.github.io/tv-shqip-nuvio/manifest.json
 ```
 
 The addon manifest is generated under:
