@@ -77,6 +77,12 @@ function toMeta(channel) {
 function build() {
   const channels = readChannels();
   fs.rmSync(publicDirectory, { recursive: true, force: true });
+  fs.mkdirSync(publicDirectory, { recursive: true });
+
+  const rootIndexPath = path.join(rootDirectory, 'index.html');
+  if (fs.existsSync(rootIndexPath)) {
+    fs.copyFileSync(rootIndexPath, path.join(publicDirectory, 'index.html'));
+  }
 
   writeJson(path.join(publicDirectory, 'manifest.json'), {
     id: 'org.nuvio.static-live-tv',
