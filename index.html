@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TV Shqip Nuvio</title>
+    <style>
+      :root {
+        --bg: #0f172a;
+        --panel: #111827;
+        --panel-alt: #1f2937;
+        --line: #334155;
+        --text: #e5e7eb;
+        --muted: #94a3b8;
+        --accent: #38bdf8;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: linear-gradient(135deg, #020817, var(--bg));
+        color: var(--text);
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .card {
+        width: min(760px, 92vw);
+        background: rgba(17, 24, 39, 0.94);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 28px 26px;
+        box-shadow: 0 20px 48px rgba(0, 0, 0, 0.35);
+      }
+
+      h1 {
+        margin: 0 0 16px;
+        font-size: clamp(2rem, 4vw, 2.6rem);
+      }
+
+      p {
+        color: var(--muted);
+        line-height: 1.6;
+        margin: 0 0 18px;
+      }
+
+      .steps {
+        margin: 0;
+        padding-left: 24px;
+      }
+
+      .steps li {
+        margin-bottom: 14px;
+        line-height: 1.6;
+      }
+
+      code {
+        background: var(--panel-alt);
+        color: var(--text);
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        padding: 2px 8px;
+        font-size: 0.96em;
+      }
+
+      .url-wrap {
+        margin-top: 18px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+
+      .url {
+        flex: 1;
+        padding: 14px 16px;
+        background: var(--panel-alt);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        word-break: break-all;
+        color: var(--accent);
+        font-weight: 600;
+      }
+
+      .copy-btn {
+        border: 1px solid var(--accent);
+        background: rgba(56, 189, 248, 0.12);
+        color: var(--text);
+        border-radius: 10px;
+        padding: 12px 16px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+
+      .copy-btn:hover {
+        background: rgba(56, 189, 248, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>TV Shqip Nuvio</h1>
+
+      <p>Use this URL as the addon entry point in Nuvio to add the live TV catalog.</p>
+
+      <ol class="steps">
+        <li>Open Nuvio.</li>
+        <li>Go to the add-on or plugin section.</li>
+        <li>Select the option to add a custom URL or plugin entry.</li>
+        <li>Paste the URL below.</li>
+        <li>Save it and open the catalog to watch live TV.</li>
+      </ol>
+
+      <div class="url-wrap">
+        <div class="url" id="nuvio-url">https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPO-NAME</div>
+        <button class="copy-btn" type="button" id="copy-btn">Copy</button>
+      </div>
+    </div>
+
+    <script>
+      const url = document.getElementById('nuvio-url').textContent.trim();
+      const button = document.getElementById('copy-btn');
+
+      button.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(url);
+          button.textContent = 'Copied';
+          setTimeout(() => {
+            button.textContent = 'Copy';
+          }, 1500);
+        } catch (error) {
+          button.textContent = 'Copy failed';
+          setTimeout(() => {
+            button.textContent = 'Copy';
+          }, 1500);
+        }
+      });
+    </script>
+  </body>
+</html>
