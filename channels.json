@@ -1,65 +1,65 @@
 [
-	{
-		"id": "cna",
-		"name": "CNA",
-		"description": "Live Albanian TV channel.",
-		"poster": "https://placehold.co/600x900/111827/ffffff?text=CNA",
-		"streamUrl": "https://live1.mediadesk.al/cnatvlive.m3u8"
-	},
-	{
-		"id": "euronews-albania",
-		"name": "Euronews Albania",
-		"description": "Live Albanian TV channel.",
-		"poster": "https://placehold.co/600x900/111827/ffffff?text=Euronews%20Albania",
-		"streamUrl": "https://www.youtube-nocookie.com/embed/jXv4aMguDts"
-	},
-	{
-		"id": "news-24",
-		"name": "News 24",
-		"description": "Live Albanian TV channel.",
-		"poster": "https://placehold.co/600x900/111827/ffffff?text=News%2024",
-		"streamUrl": "https://tv.balkanweb.com/news24/livestream/playlist.m3u8"
-	},
-	{
-		"id": "ntv",
-		"name": "ntv",
-		"description": "Live Albanian TV channel.",
-		"poster": "https://placehold.co/600x900/111827/ffffff?text=ntv",
-		"streamUrl": "https://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8"
-	},
-	{
-		"id": "ora-news",
-		"name": "Ora News",
-		"description": "Live Albanian TV channel.",
-		"poster": "https://placehold.co/600x900/111827/ffffff?text=Ora%20News",
-		"streamUrl": "https://live1.mediadesk.al/oranews.m3u8"
-	},
-	{
-		"id": "syri",
-		"name": "Syri",
-		"description": "Live Albanian TV channel.",
-		"poster": "https://placehold.co/600x900/111827/ffffff?text=Syri",
-		"streamUrl": "https://stream.syritv.al/live/syritv/playlist.m3u8"
-	},
-	{
-		"id": "tropoja-televizion",
-		"name": "Tropoja Televizion",
-		"description": "Live Albanian TV channel.",
-		"poster": "https://placehold.co/600x900/111827/ffffff?text=Tropoja%20Televizion",
-		"streamUrl": "https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8"
-	},
-	{
-		"id": "tv-johaniter",
-		"name": "TV Johaniter",
-		"description": "Live Albanian TV channel.",
-		"poster": "https://placehold.co/600x900/111827/ffffff?text=TV%20Johaniter",
-		"streamUrl": "https://protokolldns.xyz/johaniterweb44547dsd/index.m3u8"
-	},
-	{
-		"id": "zjarr-tv",
-		"name": "Zjarr TV",
-		"description": "Live Albanian TV channel.",
-		"poster": "https://placehold.co/600x900/111827/ffffff?text=Zjarr%20TV",
-		"streamUrl": "https://zjarr.future.al/hls/playlist.m3u8"
-	}
+  {
+    "id": "cna",
+    "name": "CNA",
+    "description": "Live Albanian TV channel.",
+    "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/cna.svg",
+    "streamUrl": "https://live1.mediadesk.al/cnatvlive.m3u8"
+  },
+  {
+    "id": "euronews-albania",
+    "name": "Euronews Albania",
+    "description": "Live Albanian TV channel.",
+    "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/euronews-albania.svg",
+    "streamUrl": "https://www.youtube-nocookie.com/embed/jXv4aMguDts"
+  },
+  {
+    "id": "news-24",
+    "name": "News 24",
+    "description": "Live Albanian TV channel.",
+    "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/news-24.svg",
+    "streamUrl": "https://tv.balkanweb.com/news24/livestream/playlist.m3u8"
+  },
+  {
+    "id": "ntv",
+    "name": "ntv",
+    "description": "Live Albanian TV channel.",
+    "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/ntv.svg",
+    "streamUrl": "https://protokolldns.xyz/ntv.l.i.v.e5547892023/index.m3u8"
+  },
+  {
+    "id": "ora-news",
+    "name": "Ora News",
+    "description": "Live Albanian TV channel.",
+    "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/ora-news.svg",
+    "streamUrl": "https://live1.mediadesk.al/oranews.m3u8"
+  },
+  {
+    "id": "syri",
+    "name": "Syri",
+    "description": "Live Albanian TV channel.",
+    "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/syri.svg",
+    "streamUrl": "https://stream.syritv.al/live/syritv/playlist.m3u8"
+  },
+  {
+    "id": "tropoja-televizion",
+    "name": "Tropoja Televizion",
+    "description": "Live Albanian TV channel.",
+    "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/tropoja-televizion.svg",
+    "streamUrl": "https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8"
+  },
+  {
+    "id": "tv-johaniter",
+    "name": "TV Johaniter",
+    "description": "Live Albanian TV channel.",
+    "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/tv-johaniter.svg",
+    "streamUrl": "https://protokolldns.xyz/johaniterweb44547dsd/index.m3u8"
+  },
+  {
+    "id": "zjarr-tv",
+    "name": "Zjarr TV",
+    "description": "Live Albanian TV channel.",
+    "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/zjarr-tv.svg",
+    "streamUrl": "https://zjarr.future.al/hls/playlist.m3u8"
+  }
 ]

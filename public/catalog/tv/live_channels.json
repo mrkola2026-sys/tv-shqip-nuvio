@@ -4,63 +4,63 @@
       "id": "cna",
       "type": "tv",
       "name": "CNA",
-      "poster": "https://placehold.co/600x900/111827/ffffff?text=CNA",
+      "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/cna.svg",
       "description": "Live Albanian TV channel."
     },
     {
       "id": "euronews-albania",
       "type": "tv",
       "name": "Euronews Albania",
-      "poster": "https://placehold.co/600x900/111827/ffffff?text=Euronews%20Albania",
+      "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/euronews-albania.svg",
       "description": "Live Albanian TV channel."
     },
     {
       "id": "news-24",
       "type": "tv",
       "name": "News 24",
-      "poster": "https://placehold.co/600x900/111827/ffffff?text=News%2024",
+      "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/news-24.svg",
       "description": "Live Albanian TV channel."
     },
     {
       "id": "ntv",
       "type": "tv",
       "name": "ntv",
-      "poster": "https://placehold.co/600x900/111827/ffffff?text=ntv",
+      "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/ntv.svg",
       "description": "Live Albanian TV channel."
     },
     {
       "id": "ora-news",
       "type": "tv",
       "name": "Ora News",
-      "poster": "https://placehold.co/600x900/111827/ffffff?text=Ora%20News",
+      "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/ora-news.svg",
       "description": "Live Albanian TV channel."
     },
     {
       "id": "syri",
       "type": "tv",
       "name": "Syri",
-      "poster": "https://placehold.co/600x900/111827/ffffff?text=Syri",
+      "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/syri.svg",
       "description": "Live Albanian TV channel."
     },
     {
       "id": "tropoja-televizion",
       "type": "tv",
       "name": "Tropoja Televizion",
-      "poster": "https://placehold.co/600x900/111827/ffffff?text=Tropoja%20Televizion",
+      "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/tropoja-televizion.svg",
       "description": "Live Albanian TV channel."
     },
     {
       "id": "tv-johaniter",
       "type": "tv",
       "name": "TV Johaniter",
-      "poster": "https://placehold.co/600x900/111827/ffffff?text=TV%20Johaniter",
+      "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/tv-johaniter.svg",
       "description": "Live Albanian TV channel."
     },
     {
       "id": "zjarr-tv",
       "type": "tv",
       "name": "Zjarr TV",
-      "poster": "https://placehold.co/600x900/111827/ffffff?text=Zjarr%20TV",
+      "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/zjarr-tv.svg",
       "description": "Live Albanian TV channel."
     }
   ]
