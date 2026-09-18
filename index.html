@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sq">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -57,15 +57,6 @@
         line-height: 1.6;
       }
 
-      code {
-        background: var(--panel-alt);
-        color: var(--text);
-        border: 1px solid var(--line);
-        border-radius: 6px;
-        padding: 2px 8px;
-        font-size: 0.96em;
-      }
-
       .url-wrap {
         margin-top: 18px;
         display: flex;
@@ -103,19 +94,19 @@
     <div class="card">
       <h1>TV Shqip Nuvio</h1>
 
-      <p>Use this URL as the addon entry point in Nuvio to add the live TV catalog.</p>
+      <p>Përdor këtë URL si pikë hyrjeje të addon-it në Nuvio për të shtuar katalogun e TV-live.</p>
 
       <ol class="steps">
-        <li>Open Nuvio.</li>
-        <li>Go to the add-on or plugin section.</li>
-        <li>Select the option to add a custom URL or plugin entry.</li>
-        <li>Paste the URL below.</li>
-        <li>Save it and open the catalog to watch live TV.</li>
+        <li>Hape Nuvio.</li>
+        <li>Shko te seksioni i addon-ve ose plugin-eve.</li>
+        <li>Zgjidh opsionin për të shtuar një URL ose plugin të personalizuar.</li>
+        <li>Ngjit URL-në më poshtë.</li>
+        <li>Ruaje dhe hap katalogun për të parë TV live.</li>
       </ol>
 
       <div class="url-wrap">
         <div class="url" id="nuvio-url">https://mrkola2026-sys.github.io/tv-shqip-nuvio/manifest.json</div>
-        <button class="copy-btn" type="button" id="copy-btn">Copy</button>
+        <button class="copy-btn" type="button" id="copy-btn">Kopjo</button>
       </div>
     </div>
 
@@ -126,14 +117,14 @@
       button.addEventListener('click', async () => {
         try {
           await navigator.clipboard.writeText(url);
-          button.textContent = 'Copied';
+          button.textContent = 'U kopjua';
           setTimeout(() => {
-            button.textContent = 'Copy';
+            button.textContent = 'Kopjo';
           }, 1500);
         } catch (error) {
-          button.textContent = 'Copy failed';
+          button.textContent = 'Kopjimi dështoi';
           setTimeout(() => {
-            button.textContent = 'Copy';
+            button.textContent = 'Kopjo';
           }, 1500);
         }
       });
