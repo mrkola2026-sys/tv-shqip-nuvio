@@ -1,6 +1,6 @@
 # TV Shqip Nuvio
 
-Një addon statik i TV-live për Nuvio/Stremio që merr kanale shqiptare nga një burim i jashtëm, gjeneron skedarët e nevojshëm të katalogut, meta dhe stream-it dhe i publikon përmes GitHub Pages.
+Një add-on statik i TV-live për Nuvio/Stremio që merr kanale shqiptare nga një burim i jashtëm, gjeneron skedarët e nevojshëm të katalogut, meta dhe stream-it dhe i publikon përmes GitHub Pages.
 
 ## Shtoje në Nuvio dhe shiko TV live
 
@@ -13,14 +13,14 @@ Një addon statik i TV-live për Nuvio/Stremio që merr kanale shqiptare nga nj�
 https://mrkola2026-sys.github.io/tv-shqip-nuvio/manifest.json
 ```
 
-5. Hap Nuvio dhe shto addon-in duke përdorur këtë URL.
+5. Hap Nuvio dhe shto add-on-in duke përdorur këtë URL.
 6. Hap katalogun dhe zgjidh një kanal për të parë TV live.
 
-Pasi addon-i të ngarkohet, Nuvio lexon manifestin dhe katalogun nga sajti i Pages dhe tregon kanalet e disponueshme.
+Pasi add-on-i të ngarkohet, Nuvio lexon manifestin dhe katalogun nga sajti i Pages dhe tregon kanalet e disponueshme.
 
 ## Çfarë bën ky projekt
 
-Ky projekt krijon një paketë statike addon-i që Nuvio mund ta përdorë si burim TV live. Ai:
+Ky projekt krijon një paketë statike add-on-i që Nuvio mund ta përdorë si burim TV live. Ai:
 
 - lexon definicionet e kanalëve nga `channels.json`
 - krijon një manifest dhe katalog të kompatueshëm me Stremio/Nuvio
@@ -31,9 +31,9 @@ Ky projekt krijon një paketë statike addon-i që Nuvio mund ta përdorë si bu
 
 ## Struktura e projektit
 
-- `build.js` – gjeneron output-in statik të addon-it nga `channels.json`
-- `channels.json` – lista e burimit të kanalëve të përdorura nga addon-i
-- `public/` – skedarët e gjeneruar statikë të addon-it të shërbyer nga GitHub Pages
+- `build.js` – gjeneron output-in statik të add-on-it nga `channels.json`
+- `channels.json` – lista e burimit të kanalëve të përdorura nga add-on-i
+- `public/` – skedarët e gjeneruar statikë të add-on-it të shërbyer nga GitHub Pages
 - `scripts/sync-channels.js` – merr të dhëna nga burimi i jashtëm dhe rifreskon listën
 - `scripts/add-channel.js` – ndihmës për shtimin manual të një kanali
 - `.github/workflows/` – workflow-et e CI/CD për sinkronizim dhe deployim
@@ -45,7 +45,7 @@ Projekti përfshin një workflow të planifikuar në GitHub Actions që ekzekuto
 - `sync-channels.yml` ekzekutohet sipas një cron schedule
 - merr të dhëna live të kanalëve shqiptarë nga:
   `https://raw.githubusercontent.com/famelack/famelack-data/refs/heads/main/tv/raw/countries/al.json`
-- normalizon çdo element në formatin e kërkuar nga addon-i
+- normalizon çdo element në formatin e kërkuar nga add-on-i
 - e shkruan rezultatin tek `channels.json`
 - ndërton përsëri output-in statik në `public/`
 - e komiton ndryshimin prapa në depo
@@ -62,7 +62,7 @@ Ai:
 - ngarkon dosjen `public/` si artifact të Pages
 - e deploy-aton në GitHub Pages
 
-Kjo do të thotë se addon-i publikohet si një site statik dhe mund të përdoret nga Nuvio ose klientë të tjerë kompatibilë me Stremio.
+Kjo do të thotë se add-on-i publikohet si një site statik dhe mund të përdoret nga Nuvio ose klientë të tjerë kompatibilë me Stremio.
 
 ## Zhvillim lokal
 
@@ -72,7 +72,7 @@ Instalo dependencies:
 npm install
 ```
 
-Ndërto addon-in lokal:
+Ndërto add-on-in lokal:
 
 ```bash
 npm run build
@@ -95,7 +95,7 @@ npm run add-channel
 1. Publiko depo-n në GitHub.
 2. Aktivizo GitHub Pages në settings e depo-s.
 3. Sigurohu që source-i i Pages të jetë vendosur në deployim nga workflow-i i GitHub Pages.
-4. Përdor URL-në e publikuar si entry point të addon-it në Nuvio.
+4. Përdor URL-në e publikuar si entry point të add-on-it në Nuvio.
 5. Nuvio do të lexojë manifestin dhe katalogun nga skedarët statikë të gjeneruar.
 
 URL aktuale e projektit:
@@ -104,7 +104,7 @@ URL aktuale e projektit:
 https://mrkola2026-sys.github.io/tv-shqip-nuvio/manifest.json
 ```
 
-Manifesti i addon-it gjenerohet në:
+Manifesti i add-on-it gjenerohet në:
 
 ```text
 /public/manifest.json
@@ -118,7 +118,7 @@ dhe katalogu gjenerohet në:
 
 ## Shënime
 
-- Projekti është projektuar si një addon statik; nuk ka server backend.
+- Projekti është projektuar si një add-on statik; nuk ka server backend.
 - URL-të e stream-it vijnë nga burimi i jashtëm dhe janë të destinuara për klientë të kompatueshëm.
 - Imazhet e posterëve gjenerohen si skedarë SVG në `public/posters` gjatë build-it.
 
