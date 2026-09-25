@@ -54,5 +54,12 @@
     "description": "Live Albanian TV channel.",
     "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/tv-johaniter.svg",
     "streamUrl": "https://protokolldns.xyz/johaniterweb44547dsd/index.m3u8"
+  },
+  {
+    "id": "zjarr-tv",
+    "name": "Zjarr TV",
+    "description": "Live Albanian TV channel.",
+    "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/zjarr-tv.svg",
+    "streamUrl": "https://zjarr.future.al/hls/playlist.m3u8"
   }
 ]
