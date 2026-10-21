@@ -11,7 +11,7 @@
     "name": "Euronews Albania",
     "description": "Live Albanian TV channel.",
     "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/euronews-albania.svg",
-    "streamUrl": "https://www.youtube-nocookie.com/embed/nhg1P4lqEeU"
+    "streamUrl": "https://www.youtube-nocookie.com/embed/iUtANFIQHSs"
   },
   {
     "id": "news-24",
@@ -47,13 +47,6 @@
     "description": "Live Albanian TV channel.",
     "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/tropoja-televizion.svg",
     "streamUrl": "https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8"
-  },
-  {
-    "id": "tv-johaniter",
-    "name": "TV Johaniter",
-    "description": "Live Albanian TV channel.",
-    "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/tv-johaniter.svg",
-    "streamUrl": "https://protokolldns.xyz/johaniterweb44547dsd/index.m3u8"
   },
   {
     "id": "zjarr-tv",
