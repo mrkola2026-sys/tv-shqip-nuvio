@@ -50,6 +50,13 @@
       "description": "Live Albanian TV channel."
     },
     {
+      "id": "tv-johaniter",
+      "type": "tv",
+      "name": "TV Johaniter",
+      "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/tv-johaniter.svg",
+      "description": "Live Albanian TV channel."
+    },
+    {
       "id": "zjarr-tv",
       "type": "tv",
       "name": "Zjarr TV",
