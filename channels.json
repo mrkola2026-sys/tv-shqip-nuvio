@@ -14,6 +14,13 @@
     "streamUrl": "https://www.youtube-nocookie.com/embed/LO9rdBPpjzA"
   },
   {
+    "id": "news-24",
+    "name": "News 24",
+    "description": "Live Albanian TV channel.",
+    "poster": "https://mrkola2026-sys.github.io/tv-shqip-nuvio/posters/news-24.svg",
+    "streamUrl": "https://tv.balkanweb.com/news24/livestream/playlist.m3u8"
+  },
+  {
     "id": "ntv",
     "name": "ntv",
     "description": "Live Albanian TV channel.",
